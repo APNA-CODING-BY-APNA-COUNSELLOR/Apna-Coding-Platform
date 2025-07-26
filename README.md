@@ -173,11 +173,3 @@ If you have any questions, suggestions, or want to get in touch with the Apna Co
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-### Add your website image here:
-
-![Apna Coding](https://www.apnacoding.tech/images/logo.png) *(Replace with your actual image URL)*
-
----
-
-This **README** provides everything potential contributors need to understand the project's objectives, how they can contribute, and how to set up their development environment. It’s designed to be welcoming and clear, encouraging open-source contributions. Let me know if you’d like any further modifications!
