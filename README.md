@@ -1,4 +1,7 @@
-# Apna Coding - Open Source Project
+
+<img width="11520" height="3456" alt="JOIN NOW APNA CODING TEAM_20250324_065419_0000" src="https://github.com/user-attachments/assets/4044a064-c467-4322-926a-f0fdd13b7f0e" />
+
+---
 
 Welcome to **Apna Coding** — a **global-level coding platform** that empowers developers and innovators to learn, grow, and collaborate. Apna Coding aims to be the one-stop destination for **coding challenges**, **hackathons**, **internship opportunities**, and more.
 
