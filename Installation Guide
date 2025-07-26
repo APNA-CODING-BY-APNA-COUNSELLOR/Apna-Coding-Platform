@@ -1,0 +1,175 @@
+Apna Coding - Installation Guide
+Welcome to the Apna Coding open-source project! This guide will walk you through the steps needed to set up the project on your local machine so that you can start contributing to this exciting platform.
+
+Prerequisites
+Before you start, ensure that you have the following installed on your system:
+
+Git: For version control and cloning the repository.
+
+Download from: Git Download
+
+Node.js: For running the back-end (JavaScript) and front-end server.
+
+Download from: Node.js Download
+
+npm (Node Package Manager): This comes with Node.js and is used to manage dependencies.
+
+Installed automatically with Node.js.
+
+MongoDB: For managing the project database.
+
+Download from: MongoDB Download (if you plan to run it locally; for cloud setup, we use MongoDB Atlas).
+
+Code Editor: Recommended to use VSCode or any code editor of your choice.
+
+VSCode Download: VSCode
+
+Step-by-Step Installation
+1. Clone the Repository
+Start by cloning the Apna Coding repository to your local machine.
+
+bash
+Copy
+Edit
+git clone https://github.com/APNA-CODING-BY-APNA-COUNSELLOR/Apna-Coding-Platform.git
+After cloning, navigate into the project folder:
+
+bash
+Copy
+Edit
+cd apna-coding
+2. Install Dependencies
+Front-End
+If you're working on the front-end (React, HTML, CSS), navigate to the frontend directory and install the dependencies:
+
+bash
+Copy
+Edit
+cd frontend
+npm install
+Back-End
+If you're working on the back-end (API, server, database management), navigate to the backend directory and install the dependencies:
+
+bash
+Copy
+Edit
+cd backend
+npm install
+3. Set Up Environment Variables
+The project requires several environment variables to run properly. In the root directory of the project, create a .env file (if it doesn’t already exist) and add the following environment variables:
+
+bash
+Copy
+Edit
+# Front-end environment variables (optional)
+REACT_APP_API_URL=http://localhost:5000
+
+# Back-end environment variables
+MONGO_URI=mongodb://localhost:27017/Apna-Coding-Platform
+PORT=5000
+JWT_SECRET=your_jwt_secret_key
+Replace the MONGO_URI with your MongoDB connection string (use MongoDB Atlas for cloud setup).
+
+Replace JWT_SECRET with a random string to securely sign JWT tokens for authentication.
+
+4. Run the Project Locally
+Front-End (React)
+Navigate to the frontend folder and start the React development server:
+
+bash
+Copy
+Edit
+cd frontend
+npm start
+This will open the front-end of the platform at http://localhost:3000.
+
+Back-End (Node.js & Express)
+Navigate to the backend folder and start the Node.js server:
+
+bash
+Copy
+Edit
+cd backend
+npm start
+This will start the server at http://localhost:5000.
+
+5. Open the Application
+The front-end of the platform will be available at http://localhost:3000 (React application).
+
+The back-end will be running on http://localhost:5000 (API, server).
+
+Now, you can access the full application locally and start making changes.
+
+Running Tests
+We use Jest for unit and integration testing. To run the tests:
+
+Navigate to the project directory.
+
+Run the following command:
+
+bash
+Copy
+Edit
+npm test
+This will execute the test suite and show the results in your terminal.
+
+Contributing to the Project
+1. Fork the Repository
+Fork the repository by clicking on the “Fork” button at the top right of the GitHub project page.
+
+2. Create a New Branch
+Before starting to work on any feature or fix, create a new branch for your changes.
+
+bash
+Copy
+Edit
+git checkout -b your-branch-name
+3. Make Your Changes
+Work on your feature or bug fix. If you're working on front-end changes, navigate to the frontend directory, and for back-end changes, navigate to backend.
+
+4. Commit Your Changes
+Once you're happy with your changes, commit them to your branch.
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Describe your changes"
+5. Push to Your Forked Repository
+Push your changes to your forked GitHub repository.
+
+bash
+Copy
+Edit
+git push origin your-branch-name
+6. Create a Pull Request (PR)
+Go to the main project repository on GitHub.
+
+Click on “Pull Requests” and then click on “New Pull Request”.
+
+Choose your branch and compare it with the main branch of the original repository.
+
+Write a description of the changes you've made and submit the PR.
+
+Troubleshooting
+Here are some common issues you might face during setup:
+
+Issue: "npm command not found"
+Solution: Ensure that Node.js and npm are installed correctly. Run node -v and npm -v to verify their installation.
+
+Issue: "MongoDB connection error"
+Solution: Ensure MongoDB is running locally (if you’re using MongoDB locally). You can start it using mongod command or use MongoDB Atlas for cloud-based setup.
+
+Issue: "Error: cannot find module"
+Solution: Run npm install in both the frontend and backend directories to ensure all dependencies are installed.
+
+Getting Help
+If you encounter any issues or have questions, feel free to reach out to the Apna Coding team:
+
+Email: apnacoding.tech@gmail.com
+
+LinkedIn: Apna Coding LinkedIn
+
+You can also ask for help in the community Slack/Discord channels or raise an issue on the GitHub repository.
+
+Happy coding, and thank you for contributing to Apna Coding! 🙌
