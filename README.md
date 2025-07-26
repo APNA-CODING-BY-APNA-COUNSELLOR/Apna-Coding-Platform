@@ -77,7 +77,7 @@ To get started with contributing to the Apna Coding platform, follow these steps
 1. **Clone the Repository**: Clone this repository to your local machine to start working on it.
 
    ```bash
-   git clone https://github.com/yourusername/apna-coding.git
+   git clone https://github.com/APNA-CODING-BY-APNA-COUNSELLOR/Apna-Coding-Platform.git
    ```
 
 2. **Set Up Development Environment**: Follow the instructions in the [Installation Guide](#) to set up your local development environment.
