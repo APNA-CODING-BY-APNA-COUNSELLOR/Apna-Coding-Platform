@@ -80,7 +80,7 @@ To get started with contributing to the Apna Coding platform, follow these steps
    git clone https://github.com/APNA-CODING-BY-APNA-COUNSELLOR/Apna-Coding-Platform.git
    ```
 
-2. **Set Up Development Environment**: Follow the instructions in the [Installation Guide](#) to set up your local development environment.
+2. **Set Up Development Environment**: Follow the instructions in the [Installation Guide](https://github.com/APNA-CODING-BY-APNA-COUNSELLOR/Apna-Coding-Platform/blob/main/Installation%20Guide) to set up your local development environment.
 
 3. **Run the App Locally**: Use the following commands to run the platform locally and start making changes:
 
