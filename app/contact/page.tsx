@@ -139,6 +139,7 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={handleInputChange}
                         required
+                        minLength={3}
                         className="bg-black border-gray-700 text-white focus:border-yellow-400"
                         placeholder="Your full name"
                       />
@@ -165,6 +166,7 @@ export default function ContactPage() {
                       value={formData.subject}
                       onChange={handleInputChange}
                       required
+                      minLength={3}
                       className="bg-black border-gray-700 text-white focus:border-yellow-400"
                       placeholder="What's this about?"
                     />
@@ -177,6 +179,7 @@ export default function ContactPage() {
                       value={formData.message}
                       onChange={handleInputChange}
                       required
+                      minLength={10}
                       rows={6}
                       className="bg-black border-gray-700 text-white focus:border-yellow-400"
                       placeholder="Tell us more about your inquiry..."
